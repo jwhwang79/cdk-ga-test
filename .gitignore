@@ -6,3 +6,14 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# Python temp files
+**/*.pyc
+.codes/**/__pycache__/
+
+# Lambda Layer
+codes/layer/python**/python
+
+.vscode
+
+.venv
